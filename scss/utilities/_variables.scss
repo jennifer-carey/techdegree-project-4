@@ -1,0 +1,32 @@
+// =============================================
+//              Colors                          
+// =============================================
+
+// Brand colors
+
+$primary-brand-color: #58e1c1;
+$secondary-brand-color: #777;
+$tertiary-brand-color: #51ddfc;
+$success-color: #63cc82;
+$error-color: #e4757a;
+$warning-color: #fd7856;
+$info-color: #927bc1;
+
+// Descriptive colors
+
+$white: #fff;
+
+// Functional color variables
+
+$primary-brand-light: lighten($primary-brand-color, 10%);
+$tertiary-brand-light: lighten($tertiary-brand-color, 10%);
+$success-color-light: lighten($success-color, 10%);
+$error-color-light: lighten($error-color, 10%);
+$warning-color-light: lighten($warning-color, 10%);
+$info-color-light: lighten($info-color, 10%);
+
+// =============================================
+//              Media Query Breakpoints                          
+// =============================================
+
+$break-point: 'min-width: 768px';

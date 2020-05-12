@@ -1,0 +1,21 @@
+// Buttons
+
+@mixin button {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    font-size: 0.8em;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+
+// Media Queries
+
+@mixin mq($break-point) {
+  @media (min-width: #{$break-point}) {
+      @content;
+  }
+}
