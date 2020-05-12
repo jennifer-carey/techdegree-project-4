@@ -26,7 +26,7 @@ $warning-color-light: lighten($warning-color, 10%);
 $info-color-light: lighten($info-color, 10%);
 
 // =============================================
-//              Media Query Breakpoints                          
+//              Media Breakpoints                          
 // =============================================
 
-$break-point: 'min-width: 768px';
+$break-sm: 'min-width: 768px';
